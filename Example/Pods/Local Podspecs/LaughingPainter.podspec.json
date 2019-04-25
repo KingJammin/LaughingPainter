@@ -18,6 +18,6 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "LaughingPainter/**/**/*",
+  "source_files": "LaughingPainter/Classes/**/*",
   "swift_version": "5.0"
 }

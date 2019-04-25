@@ -1,5 +1,5 @@
 PODS:
-  - LaughingPainter (1.0.0)
+  - LaughingPainter (1.0.3)
 
 DEPENDENCIES:
   - LaughingPainter (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LaughingPainter: 446af1b5507419c46a0eb0f42f05e331b6ba1629
+  LaughingPainter: 52ad20eade10dc6325765e732d1560a9d35364e9
 
 PODFILE CHECKSUM: 081212fe91fac07678ce4449ceb242831e8e37b3
 

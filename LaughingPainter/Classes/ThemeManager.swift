@@ -31,7 +31,7 @@ open class Shadow: NSObject {
 }
 
 public struct StandardThemeKeys {
-    public static let primaryBackgroundColor = "PrimaryBackgroundCOlor"
+    public static let primaryBackgroundColor = "PrimaryBackgroundColor"
     public static let primaryTextColor = "PrimaryTextColor"
     public static let primaryNavigationColor = "PrimaryNavigationColor"
     public static let headerFont = "HeaderFont"

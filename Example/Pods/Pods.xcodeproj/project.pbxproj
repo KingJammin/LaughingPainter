@@ -6,25 +6,19 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		2243968D78FDB07A5BEE467FA51BBE90 /* LaughingPainter */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 9879CCAF94162206972685EEE5905E9C /* Build configuration list for PBXAggregateTarget "LaughingPainter" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = LaughingPainter;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
+		1438082CBC87F8CE6450D5AB89A03C55 /* LaughingPainter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6EC6A55C46732100FA21DD58631022 /* LaughingPainter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21B36C95974DCD27E8663A968B570AF7 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EB4900C5ADBA37F17D0CF7191A8C0 /* ThemeManager.swift */; };
+		71400AF4B5338B7B091CBF9AF96E8C19 /* ThemeObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FFE5001D027AA400B1258B09D4C63F /* ThemeObserver.swift */; };
 		72825B6533FE5C0D648201DB96550782 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		72E796EA32061244377B718822006B2E /* Pods-LaughingPainter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB33DAA0C3D0EE7E6A7893216FA72747 /* Pods-LaughingPainter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C69AB019A763E5D334D0D8B7D658663 /* Pods-LaughingPainter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0728F86D77B25BD5ABA64AAEEDB3228 /* Pods-LaughingPainter_Example-dummy.m */; };
+		72E796EA32061244377B718822006B2E /* Pods-LaughingPainter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFDAF8B6BC0D092C108FCAFC6DFEFD71 /* Pods-LaughingPainter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C69AB019A763E5D334D0D8B7D658663 /* Pods-LaughingPainter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CECD578ACC8D3E0ED35D1B9E35BEA46F /* Pods-LaughingPainter_Example-dummy.m */; };
+		A9478593AB8690E843A6168883021DA0 /* Notification+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE22118A09982B46696BD5252BB8557 /* Notification+Ext.swift */; };
 		B0A0AC349CF5BFC4217283390FB1C442 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		CC027B2F97D9EE390BDC95E058B92AD4 /* Pods-LaughingPainter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 969DF5CD51E155582643FE4D86EE2098 /* Pods-LaughingPainter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9294C5F8E61B59FBAF74A9AA081432B /* Pods-LaughingPainter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FDCE9A60BB4A24E78DCF9B6CCE2775 /* Pods-LaughingPainter_Tests-dummy.m */; };
+		CC027B2F97D9EE390BDC95E058B92AD4 /* Pods-LaughingPainter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2181AFA092756A6B64ED025985991FB2 /* Pods-LaughingPainter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0264A614903B98B56C742C01422A466 /* LaughingPainter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC78792BA9C977E50E1FB43BE52564E8 /* LaughingPainter-dummy.m */; };
+		F3759353EC4FD0A3D62AAF1F7011F1C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		F9294C5F8E61B59FBAF74A9AA081432B /* Pods-LaughingPainter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0E9FB3A61531CD91C187408568DFAD /* Pods-LaughingPainter_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,36 +33,46 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2243968D78FDB07A5BEE467FA51BBE90;
+			remoteGlobalIDString = 035CEB433091652375E52ADA8B346295;
 			remoteInfo = LaughingPainter;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		258AFB0483BB7306F1B82C76468299AC /* Pods-LaughingPainter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LaughingPainter_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		29B9D1171BA68DD653CE682E17BD0B27 /* Pods-LaughingPainter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LaughingPainter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		356DCADF3D1628B4373909BA5F21A022 /* Pods-LaughingPainter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LaughingPainter_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		366FBE9A7E406CDA8F06FF4BCBD6B113 /* Pods-LaughingPainter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LaughingPainter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		399227C073A4DCD95ECAC83B1C7FF7EC /* Pods-LaughingPainter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LaughingPainter_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3B1287ADF9A6771DBE98E43802BFE3E6 /* Pods-LaughingPainter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LaughingPainter_Tests.modulemap"; sourceTree = "<group>"; };
-		43CC2DDDC350CAAEED1FB31B269B4436 /* Pods-LaughingPainter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LaughingPainter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		56AAA0046484F48CCED3530E59F4B33D /* Pods-LaughingPainter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LaughingPainter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		61CF07F4B7CCF10CDE0575C6DCDA25C7 /* Pods-LaughingPainter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LaughingPainter_Example-Info.plist"; sourceTree = "<group>"; };
-		6B535815FC93106AE2CA07798E630968 /* Pods_LaughingPainter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LaughingPainter_Example.framework; path = "Pods-LaughingPainter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		969DF5CD51E155582643FE4D86EE2098 /* Pods-LaughingPainter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LaughingPainter_Tests-umbrella.h"; sourceTree = "<group>"; };
+		17432C6667EE772D60FC376CC3687328 /* Pods-LaughingPainter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LaughingPainter_Tests.modulemap"; sourceTree = "<group>"; };
+		17550CB2AD3992873A8F4C81FA43A02F /* Pods-LaughingPainter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LaughingPainter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1FD1E64F44819013D1832B285983A3D7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2181AFA092756A6B64ED025985991FB2 /* Pods-LaughingPainter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LaughingPainter_Tests-umbrella.h"; sourceTree = "<group>"; };
+		27CEA725EC61ACB37729123FA7666C2E /* LaughingPainter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LaughingPainter.modulemap; sourceTree = "<group>"; };
+		2AE22118A09982B46696BD5252BB8557 /* Notification+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Notification+Ext.swift"; path = "LaughingPainter/Classes/Notification+Ext.swift"; sourceTree = "<group>"; };
+		49FFE5001D027AA400B1258B09D4C63F /* ThemeObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeObserver.swift; path = LaughingPainter/Classes/ThemeObserver.swift; sourceTree = "<group>"; };
+		4DA379F300E0B89978A53EA6380E8DD4 /* LaughingPainter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LaughingPainter-prefix.pch"; sourceTree = "<group>"; };
+		4EC015462D79BA37BC31525C4CBFB5C0 /* Pods-LaughingPainter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LaughingPainter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		58317F2F81904CA44650492147F8231D /* Pods-LaughingPainter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LaughingPainter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A1EB4900C5ADBA37F17D0CF7191A8C0 /* ThemeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeManager.swift; path = LaughingPainter/Classes/ThemeManager.swift; sourceTree = "<group>"; };
+		5EC8178C6C01666021742F766BF07B50 /* Pods-LaughingPainter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LaughingPainter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		73A427908067CC24CE2B798D700245AB /* Pods-LaughingPainter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LaughingPainter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C2992FDB3A34592084936C2647CCCEF /* Pods-LaughingPainter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LaughingPainter_Tests-Info.plist"; sourceTree = "<group>"; };
+		7E4802BCDB2AB07AF9566AA0FC7486B3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7EEC65F4B4D35C79CA9169BE16A7A361 /* LaughingPainter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LaughingPainter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		92639F816CFCD588F0A73ECA022FE56A /* Pods-LaughingPainter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LaughingPainter_Example.modulemap"; sourceTree = "<group>"; };
+		932A00107713D3CB43CE06862D925C64 /* LaughingPainter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LaughingPainter-Info.plist"; sourceTree = "<group>"; };
+		996654A4D9EBA0153756A0FB777A923E /* Pods-LaughingPainter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LaughingPainter_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9C6EC6A55C46732100FA21DD58631022 /* LaughingPainter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LaughingPainter-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A20BC3E4E629B2F52870FA33D5E73662 /* Pods_LaughingPainter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LaughingPainter_Tests.framework; path = "Pods-LaughingPainter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3E6D709FDD6EAE34464D3F01ABF43FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		AB33DAA0C3D0EE7E6A7893216FA72747 /* Pods-LaughingPainter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LaughingPainter_Example-umbrella.h"; sourceTree = "<group>"; };
-		ADF3C75B5E34C9801DDD5A72B1B659D3 /* Pods-LaughingPainter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LaughingPainter_Tests-Info.plist"; sourceTree = "<group>"; };
-		C1BB76F646BC9C5CB19A1F6AF8153F55 /* LaughingPainter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LaughingPainter.xcconfig; sourceTree = "<group>"; };
-		C999E2A06500A7F53EA5B2811444733D /* Pods-LaughingPainter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LaughingPainter_Example.modulemap"; sourceTree = "<group>"; };
+		AC0E9FB3A61531CD91C187408568DFAD /* Pods-LaughingPainter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LaughingPainter_Tests-dummy.m"; sourceTree = "<group>"; };
+		C6F8431B731CEB548B388FFB98C2FD43 /* Pods-LaughingPainter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LaughingPainter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C7CB2D128BDA41CBE3B7DF77318D87B1 /* Pods-LaughingPainter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LaughingPainter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D66B04052140310C007F1D293F0FD1D6 /* LaughingPainter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LaughingPainter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E3FDCE9A60BB4A24E78DCF9B6CCE2775 /* Pods-LaughingPainter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LaughingPainter_Tests-dummy.m"; sourceTree = "<group>"; };
-		E6DD9E13ECD605D90B2E045E7A764704 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		E8FAF77B8607C42B499F734EDC8E52C9 /* Pods-LaughingPainter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LaughingPainter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F0728F86D77B25BD5ABA64AAEEDB3228 /* Pods-LaughingPainter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LaughingPainter_Example-dummy.m"; sourceTree = "<group>"; };
+		CC80346849E45DE3ADF530B3383F273F /* LaughingPainter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LaughingPainter.framework; path = LaughingPainter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECD578ACC8D3E0ED35D1B9E35BEA46F /* Pods-LaughingPainter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LaughingPainter_Example-dummy.m"; sourceTree = "<group>"; };
+		D3642DE3EEEF2898574BD9D1D482A8B4 /* Pods-LaughingPainter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LaughingPainter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D7E55380BD92FAB795ABE8DB22B5B3F3 /* LaughingPainter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LaughingPainter.xcconfig; sourceTree = "<group>"; };
+		DAA263BEAC254FCDA2ED40C8D3E53358 /* Pods-LaughingPainter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LaughingPainter_Example-Info.plist"; sourceTree = "<group>"; };
+		DC934A5824456C67DCAEA65DE1C4AB1A /* Pods_LaughingPainter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LaughingPainter_Example.framework; path = "Pods-LaughingPainter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E202978E8D007D1CD4FBA4049BD9C5F6 /* Pods_LaughingPainter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LaughingPainter_Tests.framework; path = "Pods-LaughingPainter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC78792BA9C977E50E1FB43BE52564E8 /* LaughingPainter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LaughingPainter-dummy.m"; sourceTree = "<group>"; };
+		FFDAF8B6BC0D092C108FCAFC6DFEFD71 /* Pods-LaughingPainter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LaughingPainter_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,85 +92,81 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		89344BA494F85EF33D07F4B6AE39595F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3759353EC4FD0A3D62AAF1F7011F1C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09B943CBD11E7F7D83933BB4EC12B1F5 /* Pods-LaughingPainter_Example */ = {
+		343577B6AA05F0794EDDAD549B1C6087 /* Pods-LaughingPainter_Example */ = {
 			isa = PBXGroup;
 			children = (
-				C999E2A06500A7F53EA5B2811444733D /* Pods-LaughingPainter_Example.modulemap */,
-				29B9D1171BA68DD653CE682E17BD0B27 /* Pods-LaughingPainter_Example-acknowledgements.markdown */,
-				E8FAF77B8607C42B499F734EDC8E52C9 /* Pods-LaughingPainter_Example-acknowledgements.plist */,
-				F0728F86D77B25BD5ABA64AAEEDB3228 /* Pods-LaughingPainter_Example-dummy.m */,
-				61CF07F4B7CCF10CDE0575C6DCDA25C7 /* Pods-LaughingPainter_Example-Info.plist */,
-				AB33DAA0C3D0EE7E6A7893216FA72747 /* Pods-LaughingPainter_Example-umbrella.h */,
-				258AFB0483BB7306F1B82C76468299AC /* Pods-LaughingPainter_Example.debug.xcconfig */,
-				399227C073A4DCD95ECAC83B1C7FF7EC /* Pods-LaughingPainter_Example.release.xcconfig */,
+				92639F816CFCD588F0A73ECA022FE56A /* Pods-LaughingPainter_Example.modulemap */,
+				4EC015462D79BA37BC31525C4CBFB5C0 /* Pods-LaughingPainter_Example-acknowledgements.markdown */,
+				C6F8431B731CEB548B388FFB98C2FD43 /* Pods-LaughingPainter_Example-acknowledgements.plist */,
+				CECD578ACC8D3E0ED35D1B9E35BEA46F /* Pods-LaughingPainter_Example-dummy.m */,
+				996654A4D9EBA0153756A0FB777A923E /* Pods-LaughingPainter_Example-frameworks.sh */,
+				DAA263BEAC254FCDA2ED40C8D3E53358 /* Pods-LaughingPainter_Example-Info.plist */,
+				FFDAF8B6BC0D092C108FCAFC6DFEFD71 /* Pods-LaughingPainter_Example-umbrella.h */,
+				5EC8178C6C01666021742F766BF07B50 /* Pods-LaughingPainter_Example.debug.xcconfig */,
+				17550CB2AD3992873A8F4C81FA43A02F /* Pods-LaughingPainter_Example.release.xcconfig */,
 			);
 			name = "Pods-LaughingPainter_Example";
 			path = "Target Support Files/Pods-LaughingPainter_Example";
 			sourceTree = "<group>";
 		};
-		21207E275A031E62C076A59785BB0F5D /* Pod */ = {
+		374BA411C676724D572F49653D61D952 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D66B04052140310C007F1D293F0FD1D6 /* LaughingPainter.podspec */,
-				E6DD9E13ECD605D90B2E045E7A764704 /* LICENSE */,
-				A3E6D709FDD6EAE34464D3F01ABF43FE /* README.md */,
+				27CEA725EC61ACB37729123FA7666C2E /* LaughingPainter.modulemap */,
+				D7E55380BD92FAB795ABE8DB22B5B3F3 /* LaughingPainter.xcconfig */,
+				FC78792BA9C977E50E1FB43BE52564E8 /* LaughingPainter-dummy.m */,
+				932A00107713D3CB43CE06862D925C64 /* LaughingPainter-Info.plist */,
+				4DA379F300E0B89978A53EA6380E8DD4 /* LaughingPainter-prefix.pch */,
+				9C6EC6A55C46732100FA21DD58631022 /* LaughingPainter-umbrella.h */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LaughingPainter";
 			sourceTree = "<group>";
 		};
-		29E2D19C5118DBE4C69877C1F851ADB1 /* Products */ = {
+		3AE6AD03F36F70508BC74791773585E1 /* Pods-LaughingPainter_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				6B535815FC93106AE2CA07798E630968 /* Pods_LaughingPainter_Example.framework */,
-				A20BC3E4E629B2F52870FA33D5E73662 /* Pods_LaughingPainter_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4AE0D25B9B3957DDC93B1876C62FC5EF /* Pods-LaughingPainter_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				3B1287ADF9A6771DBE98E43802BFE3E6 /* Pods-LaughingPainter_Tests.modulemap */,
-				366FBE9A7E406CDA8F06FF4BCBD6B113 /* Pods-LaughingPainter_Tests-acknowledgements.markdown */,
-				43CC2DDDC350CAAEED1FB31B269B4436 /* Pods-LaughingPainter_Tests-acknowledgements.plist */,
-				E3FDCE9A60BB4A24E78DCF9B6CCE2775 /* Pods-LaughingPainter_Tests-dummy.m */,
-				ADF3C75B5E34C9801DDD5A72B1B659D3 /* Pods-LaughingPainter_Tests-Info.plist */,
-				969DF5CD51E155582643FE4D86EE2098 /* Pods-LaughingPainter_Tests-umbrella.h */,
-				56AAA0046484F48CCED3530E59F4B33D /* Pods-LaughingPainter_Tests.debug.xcconfig */,
-				356DCADF3D1628B4373909BA5F21A022 /* Pods-LaughingPainter_Tests.release.xcconfig */,
+				17432C6667EE772D60FC376CC3687328 /* Pods-LaughingPainter_Tests.modulemap */,
+				C7CB2D128BDA41CBE3B7DF77318D87B1 /* Pods-LaughingPainter_Tests-acknowledgements.markdown */,
+				73A427908067CC24CE2B798D700245AB /* Pods-LaughingPainter_Tests-acknowledgements.plist */,
+				AC0E9FB3A61531CD91C187408568DFAD /* Pods-LaughingPainter_Tests-dummy.m */,
+				7C2992FDB3A34592084936C2647CCCEF /* Pods-LaughingPainter_Tests-Info.plist */,
+				2181AFA092756A6B64ED025985991FB2 /* Pods-LaughingPainter_Tests-umbrella.h */,
+				58317F2F81904CA44650492147F8231D /* Pods-LaughingPainter_Tests.debug.xcconfig */,
+				D3642DE3EEEF2898574BD9D1D482A8B4 /* Pods-LaughingPainter_Tests.release.xcconfig */,
 			);
 			name = "Pods-LaughingPainter_Tests";
 			path = "Target Support Files/Pods-LaughingPainter_Tests";
 			sourceTree = "<group>";
 		};
-		636B2AE087F5680DF1FC65C0835940F6 /* LaughingPainter */ = {
+		5DEB5B4634E5C0ECE79BDD7F6C781E10 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				21207E275A031E62C076A59785BB0F5D /* Pod */,
-				C137AE6CFF238FAA24F6CE754EB782E7 /* Support Files */,
-			);
-			name = LaughingPainter;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		7FE6F7F74395144B51F2D90B295EFB45 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				636B2AE087F5680DF1FC65C0835940F6 /* LaughingPainter */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		962B1D7CB40B64B0237BB17758CF3882 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				09B943CBD11E7F7D83933BB4EC12B1F5 /* Pods-LaughingPainter_Example */,
-				4AE0D25B9B3957DDC93B1876C62FC5EF /* Pods-LaughingPainter_Tests */,
+				343577B6AA05F0794EDDAD549B1C6087 /* Pods-LaughingPainter_Example */,
+				3AE6AD03F36F70508BC74791773585E1 /* Pods-LaughingPainter_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7E6ED30839BE714ACD3C55EEB7FA0372 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC80346849E45DE3ADF530B3383F273F /* LaughingPainter.framework */,
+				DC934A5824456C67DCAEA65DE1C4AB1A /* Pods_LaughingPainter_Example.framework */,
+				E202978E8D007D1CD4FBA4049BD9C5F6 /* Pods_LaughingPainter_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -177,23 +177,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C137AE6CFF238FAA24F6CE754EB782E7 /* Support Files */ = {
+		9FDB9183531A9AF22AFD1D387A7BA196 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C1BB76F646BC9C5CB19A1F6AF8153F55 /* LaughingPainter.xcconfig */,
+				FCC55F58728ACF2399879C1B2A3611F5 /* LaughingPainter */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LaughingPainter";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7FE6F7F74395144B51F2D90B295EFB45 /* Development Pods */,
+				9FDB9183531A9AF22AFD1D387A7BA196 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				29E2D19C5118DBE4C69877C1F851ADB1 /* Products */,
-				962B1D7CB40B64B0237BB17758CF3882 /* Targets Support Files */,
+				7E6ED30839BE714ACD3C55EEB7FA0372 /* Products */,
+				5DEB5B4634E5C0ECE79BDD7F6C781E10 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -203,6 +202,29 @@
 				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F20FAE722BED25530D478891F89D0C08 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7EEC65F4B4D35C79CA9169BE16A7A361 /* LaughingPainter.podspec */,
+				1FD1E64F44819013D1832B285983A3D7 /* LICENSE */,
+				7E4802BCDB2AB07AF9566AA0FC7486B3 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FCC55F58728ACF2399879C1B2A3611F5 /* LaughingPainter */ = {
+			isa = PBXGroup;
+			children = (
+				2AE22118A09982B46696BD5252BB8557 /* Notification+Ext.swift */,
+				5A1EB4900C5ADBA37F17D0CF7191A8C0 /* ThemeManager.swift */,
+				49FFE5001D027AA400B1258B09D4C63F /* ThemeObserver.swift */,
+				F20FAE722BED25530D478891F89D0C08 /* Pod */,
+				374BA411C676724D572F49653D61D952 /* Support Files */,
+			);
+			name = LaughingPainter;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,9 +246,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A0041EA2389CE8E6E6658B939EC9F991 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1438082CBC87F8CE6450D5AB89A03C55 /* LaughingPainter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		035CEB433091652375E52ADA8B346295 /* LaughingPainter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 317E23E25D84C2FF970717F83788881C /* Build configuration list for PBXNativeTarget "LaughingPainter" */;
+			buildPhases = (
+				A0041EA2389CE8E6E6658B939EC9F991 /* Headers */,
+				C332A4F51DD5F49FAE0DE95D7119EECE /* Sources */,
+				89344BA494F85EF33D07F4B6AE39595F /* Frameworks */,
+				A863152E7613582AFF607A5C7F0F1CBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaughingPainter;
+			productName = LaughingPainter;
+			productReference = CC80346849E45DE3ADF530B3383F273F /* LaughingPainter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		09E57101FD4F77B0D9B6D658FF3DB8CC /* Pods-LaughingPainter_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5A5A8051A3B71A4BD38E3EEF63F4DB0 /* Build configuration list for PBXNativeTarget "Pods-LaughingPainter_Example" */;
@@ -243,7 +291,7 @@
 			);
 			name = "Pods-LaughingPainter_Example";
 			productName = "Pods-LaughingPainter_Example";
-			productReference = 6B535815FC93106AE2CA07798E630968 /* Pods_LaughingPainter_Example.framework */;
+			productReference = DC934A5824456C67DCAEA65DE1C4AB1A /* Pods_LaughingPainter_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C33E37B5F1D9EC4407A9473FD48A46D1 /* Pods-LaughingPainter_Tests */ = {
@@ -262,7 +310,7 @@
 			);
 			name = "Pods-LaughingPainter_Tests";
 			productName = "Pods-LaughingPainter_Tests";
-			productReference = A20BC3E4E629B2F52870FA33D5E73662 /* Pods_LaughingPainter_Tests.framework */;
+			productReference = E202978E8D007D1CD4FBA4049BD9C5F6 /* Pods_LaughingPainter_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -282,11 +330,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 29E2D19C5118DBE4C69877C1F851ADB1 /* Products */;
+			productRefGroup = 7E6ED30839BE714ACD3C55EEB7FA0372 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2243968D78FDB07A5BEE467FA51BBE90 /* LaughingPainter */,
+				035CEB433091652375E52ADA8B346295 /* LaughingPainter */,
 				09E57101FD4F77B0D9B6D658FF3DB8CC /* Pods-LaughingPainter_Example */,
 				C33E37B5F1D9EC4407A9473FD48A46D1 /* Pods-LaughingPainter_Tests */,
 			);
@@ -295,6 +343,13 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		29C4E98E89B29B649FF1EB19EC2E6F18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A863152E7613582AFF607A5C7F0F1CBD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -319,6 +374,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C332A4F51DD5F49FAE0DE95D7119EECE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0264A614903B98B56C742C01422A466 /* LaughingPainter-dummy.m in Sources */,
+				A9478593AB8690E843A6168883021DA0 /* Notification+Ext.swift in Sources */,
+				21B36C95974DCD27E8663A968B570AF7 /* ThemeManager.swift in Sources */,
+				71400AF4B5338B7B091CBF9AF96E8C19 /* ThemeObserver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E14BE9ECC8E019A1AA54B3287E8CEE97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -333,7 +399,7 @@
 		9A5F25EBC87F3D7DAA651016B346E7D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LaughingPainter;
-			target = 2243968D78FDB07A5BEE467FA51BBE90 /* LaughingPainter */;
+			target = 035CEB433091652375E52ADA8B346295 /* LaughingPainter */;
 			targetProxy = 6CDFE3E8D87DBC5BE88894DB7A300B90 /* PBXContainerItemProxy */;
 		};
 		EDA0EED2FDB0A6670DF0A0C82DE8FEE2 /* PBXTargetDependency */ = {
@@ -347,7 +413,7 @@
 /* Begin XCBuildConfiguration section */
 		09DDDCF77247A9189FF719BA562AE344 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 399227C073A4DCD95ECAC83B1C7FF7EC /* Pods-LaughingPainter_Example.release.xcconfig */;
+			baseConfigurationReference = 17550CB2AD3992873A8F4C81FA43A02F /* Pods-LaughingPainter_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -380,16 +446,34 @@
 			};
 			name = Release;
 		};
-		0C1B0B22C42DE8F8C13D4ADBBB250844 /* Debug */ = {
+		2F5E62100B91F5A676C40DAA0E1244A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1BB76F646BC9C5CB19A1F6AF8153F55 /* LaughingPainter.xcconfig */;
+			baseConfigurationReference = D7E55380BD92FAB795ABE8DB22B5B3F3 /* LaughingPainter.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LaughingPainter/LaughingPainter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LaughingPainter/LaughingPainter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LaughingPainter/LaughingPainter.modulemap";
+				PRODUCT_MODULE_NAME = LaughingPainter;
+				PRODUCT_NAME = LaughingPainter;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -517,9 +601,41 @@
 			};
 			name = Debug;
 		};
+		74B2B0F88CBB75FC3597B5D2D0E9E6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7E55380BD92FAB795ABE8DB22B5B3F3 /* LaughingPainter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LaughingPainter/LaughingPainter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LaughingPainter/LaughingPainter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LaughingPainter/LaughingPainter.modulemap";
+				PRODUCT_MODULE_NAME = LaughingPainter;
+				PRODUCT_NAME = LaughingPainter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		81523F207E68CD2EC5A576B4177D9868 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 258AFB0483BB7306F1B82C76468299AC /* Pods-LaughingPainter_Example.debug.xcconfig */;
+			baseConfigurationReference = 5EC8178C6C01666021742F766BF07B50 /* Pods-LaughingPainter_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -551,23 +667,9 @@
 			};
 			name = Debug;
 		};
-		AC0B0580D5273AF90473E9EFB2113616 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1BB76F646BC9C5CB19A1F6AF8153F55 /* LaughingPainter.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		F12C2B8956520B34DA20F7CF5C9A7DDA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 356DCADF3D1628B4373909BA5F21A022 /* Pods-LaughingPainter_Tests.release.xcconfig */;
+			baseConfigurationReference = D3642DE3EEEF2898574BD9D1D482A8B4 /* Pods-LaughingPainter_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -602,7 +704,7 @@
 		};
 		F4A7246F094F0ABDEE07FA8272F30390 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56AAA0046484F48CCED3530E59F4B33D /* Pods-LaughingPainter_Tests.debug.xcconfig */;
+			baseConfigurationReference = 58317F2F81904CA44650492147F8231D /* Pods-LaughingPainter_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -637,6 +739,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		317E23E25D84C2FF970717F83788881C /* Build configuration list for PBXNativeTarget "LaughingPainter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5E62100B91F5A676C40DAA0E1244A6 /* Debug */,
+				74B2B0F88CBB75FC3597B5D2D0E9E6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -651,15 +762,6 @@
 			buildConfigurations = (
 				F4A7246F094F0ABDEE07FA8272F30390 /* Debug */,
 				F12C2B8956520B34DA20F7CF5C9A7DDA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9879CCAF94162206972685EEE5905E9C /* Build configuration list for PBXAggregateTarget "LaughingPainter" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0C1B0B22C42DE8F8C13D4ADBBB250844 /* Debug */,
-				AC0B0580D5273AF90473E9EFB2113616 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

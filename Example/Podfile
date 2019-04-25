@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LaughingPainter_Example' do
+  pod 'LaughingPainter', :path => '../'
+
+  target 'LaughingPainter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

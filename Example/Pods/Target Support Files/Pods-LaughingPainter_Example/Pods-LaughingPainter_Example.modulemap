@@ -1,0 +1,6 @@
+framework module Pods_LaughingPainter_Example {
+  umbrella header "Pods-LaughingPainter_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

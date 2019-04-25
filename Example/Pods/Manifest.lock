@@ -1,0 +1,16 @@
+PODS:
+  - LaughingPainter (0.1.0)
+
+DEPENDENCIES:
+  - LaughingPainter (from `../`)
+
+EXTERNAL SOURCES:
+  LaughingPainter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LaughingPainter: 18b26800c43cef45b88e9fc3dd45e5c47c3654b5
+
+PODFILE CHECKSUM: 081212fe91fac07678ce4449ceb242831e8e37b3
+
+COCOAPODS: 1.6.1

@@ -1,0 +1,22 @@
+{
+  "name": "LaughingPainter",
+  "version": "0.1.0",
+  "summary": "A short description of LaughingPainter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/benp@radiant.org/LaughingPainter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "benp@radiant.org": "benp@radiant.org"
+  },
+  "source": {
+    "git": "https://github.com/benp@radiant.org/LaughingPainter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LaughingPainter/Classes/**/*"
+}

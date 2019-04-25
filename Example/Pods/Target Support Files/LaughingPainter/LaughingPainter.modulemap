@@ -1,0 +1,6 @@
+framework module LaughingPainter {
+  umbrella header "LaughingPainter-umbrella.h"
+
+  export *
+  module * { export * }
+}

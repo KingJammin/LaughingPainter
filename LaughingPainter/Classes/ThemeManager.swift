@@ -14,7 +14,7 @@ public let colors: [String: UIColor]
 public let fonts: [String: UIFont]
 public let statusBarStyle: UIStatusBarStyle
 public let shadows: [String:Shadow]
-public init (name: String = "default", colors: [String:UIColor] = [:], fonts: [String:UIFont] = [:], statusBarStyle: UIStatusBarStyle = UIStatusBarStyle.default, shadows: [String:Shadow] = [StandardThemeKeys.primaryShadow:Shadow()]){
+    public init (name: String = "default", colors: [String:UIColor] = [:], fonts: [String:UIFont] = [:], statusBarStyle: UIStatusBarStyle = UIStatusBarStyle.default, shadows: [String:Shadow] = [:]){
         self.name = name
         self.colors = colors
         self.fonts = fonts
@@ -28,16 +28,6 @@ open class Shadow: NSObject {
     public let offset: CGSize = CGSize(width: 0, height: 1.0)
     public let opacity: Float = 80.0
     public let radius: CGFloat = 1.0
-}
-
-public struct StandardThemeKeys {
-    public static let primaryBackgroundColor = "PrimaryBackgroundColor"
-    public static let primaryTextColor = "PrimaryTextColor"
-    public static let primaryNavigationColor = "PrimaryNavigationColor"
-    public static let headerFont = "HeaderFont"
-    public static let bodyFont = "BodyFont"
-    public static let footerFont = "FooterFont"
-    public static let primaryShadow = "PrimaryShadow"
 }
 
 public protocol ThemeManagerProtocol {

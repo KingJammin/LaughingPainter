@@ -52,3 +52,12 @@ extension ThemeManager: ThemeManagerProtocol {
 }
 
 
+public struct StandardThemeKeys {
+    public static let primaryBackgroundColor = "PrimaryBackgroundColor"
+    public static let primaryTextColor = "PrimaryTextColor"
+    public static let primaryNavigationColor = "PrimaryNavigationColor"
+    public static let headerFont = "HeaderFont"
+    public static let bodyFont = "BodyFont"
+    public static let footerFont = "FooterFont"
+    public static let primaryShadow = "PrimaryShadow"
+}

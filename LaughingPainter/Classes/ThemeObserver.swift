@@ -18,7 +18,7 @@ public extension ThemeObserverProtocol {
         NotificationCenter.default.addObserver(self, selector: #selector(updateTheme), name: Notification.updateTheme.name, object: nil)
     }
     func removeThemeObservation() {
-        NotificationCenter.default.removeObserver(self as! NSObject, forKeyPath: Notification.updateTheme.name.rawValue)
+        NotificationCenter.default.removeObserver(self, name: Notification.updateTheme.name, object: nil)
     }
 }
 

@@ -34,20 +34,19 @@ public protocol ThemeManagerProtocol {
     static func getThemes() -> [String: Theme]
 }
 
+
 open class ThemeManager {
     public var activeTheme: Theme
     public var themes: [String:Theme]
     
-    public init(themes: [String:Theme]) {
+    public init(themes: [String:Theme], defaultThemeName: String) {
         self.themes = themes
         if let activeThemeId = UserDefaults.standard.value(forKey: "activeTheme") as? String {
             self.activeTheme = self.themes[activeThemeId] ?? Theme()
             updateTheme(themeId: activeThemeId)
         } else {
-            self.activeTheme = self.themes.values.first ?? Theme()
-            if let firstThemeId = self.themes.values.first?.name {
-             updateTheme(themeId: firstThemeId)
-            }
+            self.activeTheme = self.themes[defaultThemeName]!
+            updateTheme(themeId: defaultThemeName)
         }
     }
     

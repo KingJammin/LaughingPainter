@@ -42,7 +42,7 @@ class ExampleViewController: ThemeViewController {
 }
 
 extension ThemeManager: ThemeManagerProtocol {
-    static let instance = ThemeManager(themes: getThemes())
+    static let instance = ThemeManager(themes: getThemes(), defaultThemeName: "defaultTheme")
     static let defaultTheme = Theme(name: "defaultTheme", colors: [StandardThemeKeys.primaryTextColor:#colorLiteral(red: 0.501960814, green: 0.501960814, blue: 0.501960814, alpha: 1), StandardThemeKeys.primaryBackgroundColor: #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)], fonts: [StandardThemeKeys.headerFont: UIFont.systemFont(ofSize: 34, weight: .bold)], statusBarStyle: .default)
     static let darkModeTheme = Theme(name: "darkMode", colors: [StandardThemeKeys.primaryTextColor: #colorLiteral(red: 0.4666666687, green: 0.7647058964, blue: 0.2666666806, alpha: 1), StandardThemeKeys.primaryBackgroundColor: #colorLiteral(red: 0.3333333433, green: 0.3333333433, blue: 0.3333333433, alpha: 1)], fonts: [StandardThemeKeys.headerFont: UIFont.systemFont(ofSize: 34, weight: .light)], statusBarStyle: .lightContent)
     public static func getThemes() -> [String: Theme] {

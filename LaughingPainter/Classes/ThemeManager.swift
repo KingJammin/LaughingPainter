@@ -23,6 +23,7 @@ public let shadows: [String:Shadow]
     }
 }
 
+
 open class Shadow: NSObject {
     public let color: CGColor = UIColor.black.cgColor
     public let offset: CGSize = CGSize(width: 0, height: 1.0)

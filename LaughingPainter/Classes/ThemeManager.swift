@@ -34,22 +34,23 @@ public protocol ThemeManagerProtocol {
     static func getThemes() -> [String: Theme]
 }
 
-
 open class ThemeManager {
     public var activeTheme: Theme
     public var themes: [String:Theme]
-    
     public init(themes: [String:Theme], defaultThemeName: String) {
         self.themes = themes
         if let activeThemeId = UserDefaults.standard.value(forKey: "activeTheme") as? String {
             self.activeTheme = self.themes[activeThemeId] ?? Theme()
-            updateTheme(themeId: activeThemeId)
+            DispatchQueue.main.async {
+                self.updateTheme(themeId: activeThemeId)
+            }
         } else {
             self.activeTheme = self.themes[defaultThemeName]!
-            updateTheme(themeId: defaultThemeName)
+            DispatchQueue.main.async {
+                self.updateTheme(themeId: defaultThemeName)
+            }
         }
     }
-    
     public func updateTheme(themeId: String) {
         guard let newTheme = self.themes[themeId] else { return }
         self.activeTheme = newTheme
